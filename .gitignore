@@ -1,0 +1,18 @@
+# Exclude raw PhysioNet EDF data & massive feature CSVs
+data109/
+data/
+*.edf
+*.event
+outputs/experiment_109/features/*_train.csv
+outputs/experiment_109/features/*_test.csv
+
+# Keep manifest, plots, and result tables in Git
+!outputs/experiment_109/features/split_manifest.csv
+!outputs/experiment_109/results/
+!outputs/experiment_109/plots/
+
+# Python / Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.vscode/
