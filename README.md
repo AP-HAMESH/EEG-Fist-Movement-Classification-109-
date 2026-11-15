@@ -154,13 +154,8 @@ EEG-Fist-Movement-Classification-109-/
 ├── download_data.py
 ├── requirements.txt
 ├── README.md
-├── data/
-│   └── (downloaded EDF recordings; not tracked by Git)
-└── outputs/
-    └── experiment_109/
-        ├── features/
-        ├── plots/
-        └── results/
+├── plots/
+└── results/
 ```
 
 ## 7. Project Objective
