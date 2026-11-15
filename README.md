@@ -1,4 +1,4 @@
-# 64-Channel EEG Bilateral Motor Execution Classification (109-Participant Cohort)
+# 64-Channel EEG Bilateral Motor Execution Classification (109-Participants)
 
 This repository contains an end-to-end machine learning pipeline for
 classifying **left-fist vs. right-fist motor execution** using
@@ -83,7 +83,7 @@ containing the following artifacts:
         held-out test metrics, including Accuracy, Balanced Accuracy,
         and F1-score.
 -   **`plots/`**
-    -   High-resolution (300 DPI) visualizations of class balance, ICA
+    -   Visualizations of class balance, ICA
         exclusions, sensorimotor ERD distributions, and per-subject
         generalization variability.
 
